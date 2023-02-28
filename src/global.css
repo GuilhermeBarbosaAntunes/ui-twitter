@@ -31,15 +31,6 @@ a {
 
 /* Page: Timeline*/
 
-.layout {
-  margin: 0 auto;
-  max-width: 1000px;
-  display: grid;
-  grid-template-columns: 300px 1fr;
-}
-
-
-
 .main-navigation a {
   display: flex;
   align-items: center;
@@ -57,14 +48,3 @@ a {
   width: 2rem;
   height: 2rem;
 }
-
-.content {
-  border-left: 1px solid #ebeef0;
-  border-right: 1px solid #ebeef0;
-}
-
-
-
-
-
- 
