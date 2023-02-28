@@ -1,9 +1,14 @@
 import { Sparkle } from "phosphor-react";
 import './Header.css'
-export default function Header() {
+
+interface HeaderProps {
+  title: string
+}
+
+export default function Header(props: HeaderProps) {
   return (
     <div className='timeline-header'>
-            Home
+            {props.title}
             <Sparkle />
           </div>
   )
